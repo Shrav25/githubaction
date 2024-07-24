@@ -5,7 +5,7 @@
 
 
 import pytest
-from main import multiply
+from GitHubActions import multiply
 
 
 # In[ ]:
@@ -16,6 +16,6 @@ def test_multiply():
     assert multiply(10,10) == 100
     assert multiply(12,10) == 120
     
-if __name__ == "__main__":
-    GitHubActions_test.main()
+if __name__ == "__GitHubActions__":
+    GitHubActions_test.GitHubActions()
 
